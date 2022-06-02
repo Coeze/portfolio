@@ -1,0 +1,24 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: wheat;
+  font-family: 'Poppins', sans-serif;
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+/* font-family: 'Blaka Hollow', cursive;
+
+font-family: 'Dancing Script', cursive;
+
+font-family: 'Fredoka', sans-serif;
+
+font-family: 'Neonderthaw', cursive;
+
+font-family: 'Pacifico', cursive;
+
+font-family: 'Patrick Hand', cursive;
+
+font-family: 'Poppins', sans-serif; */

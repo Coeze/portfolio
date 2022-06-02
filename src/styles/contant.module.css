@@ -1,0 +1,28 @@
+.back{
+    background-image: url("../assets/images/test.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.header{
+    font-family: 'Fredoka', sans-serif;
+font-size: 2rem;
+}
+.text{
+    margin-left: 20px;
+    
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    color: rgb(208, 46, 73);
+}

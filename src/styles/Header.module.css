@@ -1,0 +1,51 @@
+.img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    /* transform: rotate(25deg); */
+    border-radius: 50%;
+}
+.imgDiv{
+    max-width: 10%;
+}
+.header{
+    background-image: url("../assets//images/uno.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.header_text{
+    font-family: 'Blaka Hollow', cursive;
+    font-size: 3rem;
+}
+.icons{
+    text-align:center;
+    margin-top: 10px;
+ 
+}
+.icons > *{
+    font-size: 4rem;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+#special{
+    color: blue;    
+    background-color: white;
+    line-height: 3.2rem;
+}
+
+.icons i:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+@media only screen and (max-width: 600px){
+	.header{
+        flex-direction: column;
+    }
+}

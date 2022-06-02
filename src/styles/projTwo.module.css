@@ -1,0 +1,51 @@
+.heading{
+    background-image: url("../assets/images/test.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding:50px;
+}
+.heading div{
+    margin: 50px;
+}
+.span{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+}
+.iframe{
+    width: 100%;
+    height: auto;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.information{
+    max-width: 50%;
+}
+.img1:hover{
+    transform:scale(1.05);
+    transition-duration: 0.5s;
+    transform: rotate(3deg);
+}
+.website{
+    max-width: 50%;
+}
+.iframe{
+    width:1200px ;
+    height: auto;
+}
+@media only screen and (max-width: 1000px){
+	.heading{
+        flex-direction: column-reverse;
+    }
+}
