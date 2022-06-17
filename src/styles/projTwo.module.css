@@ -31,6 +31,7 @@
 }
 .information{
     max-width: 50%;
+    text-align: left;
 }
 .img1:hover{
     transform:scale(1.05);
