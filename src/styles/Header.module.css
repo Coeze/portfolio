@@ -1,7 +1,7 @@
 .img{
     display: block;
     object-fit: cover;
-    max-width: 100%;
+    width:120%;
     height: auto;
     /* transform: rotate(25deg); */
     border-radius: 50%;
@@ -47,6 +47,7 @@
 @media only screen and (max-width: 600px){
 	.header{
         flex-direction: column;
-        padding: 50px 0;
+        padding: 50px;
+        text-align: center;
     }
 }

@@ -9,10 +9,11 @@
     justify-content: space-around;
     align-items: center;
     padding:50px;
+    box-shadow: rgba(255, 252, 252, 0.1) 0px 0px 15px 0px;
    
 }
 .heading div{
-    /* margin: 50px; */
+    margin: 50px;
 }
 .span{
     font-family: 'Fredoka', sans-serif;
@@ -46,7 +47,7 @@
 @media only screen and (max-width: 1000px){
 	.heading{
         flex-direction: column;
-        padding: 0;
+        /* padding: 0; */
     }
     .information{
         width: 100%;

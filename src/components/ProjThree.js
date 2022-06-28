@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../styles/projThree.module.css'
 import url from '../assets/images/three.png'
 
+// Note that repository name is saved as port
+
 
 function ProjThree() {
   return (

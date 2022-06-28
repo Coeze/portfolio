@@ -5,6 +5,7 @@ import styles from '../styles/Header.module.css'
 function Header() {
   return (
     <div className={styles.header}>
+
         <div className="animate__animated animate__rubberBand">
         <p className={styles.header_text}>Hey, My name is Daniel</p>
         <p className={styles.header_text}>Welcome to my portfolio</p>
