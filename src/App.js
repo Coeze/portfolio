@@ -7,6 +7,7 @@ import ProjectTwo from './components/ProjectTwo'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import OtherProjects from './components/OtherProjects';
+import ProjFour from './components/ProjFour';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
 <Header/>
 <About/>
 <ProjThree/>
+<ProjFour/>
 <ProjectOne/>
+
 <ProjectTwo/>
 <OtherProjects/>
 <Contact/>

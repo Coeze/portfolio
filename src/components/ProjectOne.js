@@ -6,7 +6,7 @@ function ProjectOne() {
   return (
     <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" className={styles.heading}>
         <div className={styles.information}>
-            <span className={styles.span} >Project #2 &nbsp;- Tech World</span>
+            <span className={styles.span} >Project #3 &nbsp;- Tech World</span>
 
             <p>It is about a tech company which is promoting its new vr product.</p>
             <p>It was created using React, during the project I practiced using the React Context API in order to keep track of the state of the basket.</p>

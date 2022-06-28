@@ -1,0 +1,55 @@
+.heading{
+    background-image: url("../assets/images/test.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px;
+    box-shadow: rgba(255, 252, 252, 0.1) 0px 0px 15px 0px;
+   
+}
+.heading div{
+    margin: 50px;
+}
+.span{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+}
+.heading > *{
+    margin-right:20px;
+}
+.iframe{
+    width: 100%;
+    height: auto;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.information{
+    max-width: 50%;
+    text-align: left;
+}
+.img1:hover{
+    transform:scale(1.05);
+    transition-duration: 0.5s;
+    transform: rotate(3deg);
+}
+.website{
+    max-width: 50%;
+}
+@media only screen and (max-width: 1000px){
+	.heading{
+        flex-direction: column;
+        /* padding: 0; */
+    }
+    .information{
+        width: 100%;
+    }
+}
