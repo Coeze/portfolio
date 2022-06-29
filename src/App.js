@@ -1,4 +1,5 @@
 import './App.css';
+import Nav from './components/Nav';
 import Header from './components/Header';
 import About from './components/About';
 import ProjThree from './components/ProjThree'
@@ -12,6 +13,7 @@ import ProjFour from './components/ProjFour';
 function App() {
   return (
     <div className="App">
+    <Nav/>
 <Header/>
 <About/>
 <ProjThree/>

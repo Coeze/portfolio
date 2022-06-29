@@ -49,9 +49,17 @@
 	.heading{
         flex-direction: column-reverse;
         padding: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
     .information{
         width: 100vw;
 
+    }
+    .heading div{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
     }
 }

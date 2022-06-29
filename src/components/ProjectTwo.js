@@ -6,7 +6,7 @@ function ProjectTwo() {
   return (
     <div data-aos="flip-down"  data-aos-duration="2000" className={styles.heading}>
       <div className={styles.website}>
-        <a href='https://fastidious-kringle-cb67d4.netlify.app/' target="_blank" rel="noreferrer"><img className={styles.img1} src={url} alt="website1"/> </a>
+        <a href='https://friendly-mooncake-0a4d2d.netlify.app/' target="_blank" rel="noreferrer"><img className={styles.img1} src={url} alt="website1"/> </a>
     </div>
     <div className={styles.information}>
         <span className={styles.span} >Project #4 &nbsp; - Curology</span>

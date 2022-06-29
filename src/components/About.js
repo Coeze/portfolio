@@ -3,7 +3,7 @@ import styles from "../styles/About.module.css";
 
 function About() {
   return (
-    <div className={styles.background}>
+    <div id="about" className={styles.background}>
       <span id={styles.heading1}>About Me</span>
       <span id={styles.heading2}>Skills</span>
 

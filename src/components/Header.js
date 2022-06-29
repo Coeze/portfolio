@@ -2,6 +2,7 @@ import React from 'react'
 import url from '../assets/images/header_image.webp'
 import styles from '../styles/Header.module.css'
 
+
 function Header() {
   return (
     <div className={styles.header}>
