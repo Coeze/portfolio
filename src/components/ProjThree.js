@@ -7,7 +7,7 @@ import url from '../assets/images/three.png'
 
 function ProjThree() {
   return (
-    <div id="projects" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" className={styles.heading}>
+    <div id="projects" className={styles.heading}>
     <div className={styles.information}>
         <span className={styles.span} >Project #1 &nbsp;- Mexant Template</span>
     <p>I attempted to build a website similar to a template I found online</p>
