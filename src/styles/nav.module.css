@@ -1,7 +1,7 @@
 .heading{
     background-image: url(../assets/images/uno.webp);
     height: min-content;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
