@@ -1,5 +1,5 @@
 .heading{
-    background-image: url(../assets/images/uno.webp);
+    background-image: url("../assets/images/uno.webp");
     height: min-content;
     background-position: top;
     background-size: cover;
