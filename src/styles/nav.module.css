@@ -1,13 +1,11 @@
 .heading{
     background-image: url("../assets/images/uno.webp");
     height: min-content;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     padding: 20px 0;
-}
-.heading{
     display: flex;
     justify-content: space-around;
     align-items: center;
