@@ -17,7 +17,7 @@ function ProjThree() {
   
     </div>
     <div className={styles.website}>
-        <a href='https://courageous-quokka-cef420.netlify.app/' target="_blank" rel="noreferrer"><img className={styles.img1} src={url} alt="website1"/> </a>
+        <a href='https://64e261c4011d580ad40f12e3--inquisitive-gelato-7abad8.netlify.app/' target="_blank" rel="noreferrer"><img className={styles.img1} src={url} alt="website1"/> </a>
     </div>
 </div>
   )
