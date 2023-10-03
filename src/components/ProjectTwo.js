@@ -5,16 +5,12 @@ import url from '../assets/images/Screenshot2.png'
 function ProjectTwo() {
   return (
     <div data-aos="flip-down"  data-aos-duration="2000" className={styles.heading}>
-      <div className={styles.website}>
-        <a href='https://friendly-mooncake-0a4d2d.netlify.app/' target="_blank" rel="noreferrer"><img className={styles.img1} src={url} alt="website1"/> </a>
-    </div>
-    <div className={styles.information}>
-        <span className={styles.span} >Project #4 &nbsp; - Curology</span>
-        <p>For this next project, I attempted to replicate Curology's landing page</p>
-        <p>This project was also created using React</p>
-        <p>I used the javascript in built javascript math object in order to randomly change the text</p>
-    </div>
-  
+       <div className={styles.information}>
+      <span className={styles.span} >Project #2 &nbsp; - Database Design</span>
+      <p>Developed a database for a research group who were monitoring the impact of fracking activity on earthquakes</p>
+      <p>The database utilises spatial queries to quickly view earthquakes that occured within a certain distance from a site associated to a company</p>
+      <p>In addition to this, I created a data warehouse, using a star schema, to support efficient data analysis</p>
+  </div>
 </div>
   )
 }
